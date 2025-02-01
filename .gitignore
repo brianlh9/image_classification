@@ -1,0 +1,51 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories
+.venv/
+.env/
+
+# Flask specific
+instance/
+*.db
+*.sqlite3
+*.log
+
+# Flask uploads (uploaded images)
+static/uploads/
+
+# Dependency directories
+node_modules/
+
+# IDE/Editor specific files (you can add more depending on your IDE)
+.vscode/
+.idea/
+*.swp
+
+# Python packages
+*.egg
+*.egg-info
+dist/
+build/
+
+# MacOS specific files
+.DS_Store
+
+# Windows specific files
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Test coverage and pytest files
+.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+
+# Flask app config
+*.env   # Environment variables, sensitive info, etc.

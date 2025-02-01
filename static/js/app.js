@@ -19,7 +19,7 @@ document.getElementById('uploadForm').addEventListener('submit', function(e) {
             document.getElementById('image-container').style.display = 'block';
 
             // Display the prediction result
-            document.getElementById('prediction').textContent = `Class: ${data.prediction}`;
+            document.getElementById('prediction').textContent = `${data.prediction.replace("_", " ")}`;
             document.getElementById('confidence').textContent = `Confidence: ${(data.confidence * 100).toFixed(2)}%`;
             document.getElementById('classification-container').style.display = 'block';
         }
